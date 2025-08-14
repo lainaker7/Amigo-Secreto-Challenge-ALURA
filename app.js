@@ -1,1 +1,4 @@
-console.log('Creando el Juego del amigo Secreto');
+// primero definimos las variables para el juego del amigo secreto
+
+let amigos = [];
+
