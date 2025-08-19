@@ -5,3 +5,5 @@
 - Para crear el juego debemos definir variables y seguir los pasos de logica de programación
 
 - Se inicia el desarrollo del Juego del amigo secreto definiendo algunas variables
+
+- Repaso curso 1 y 2 de logica de programación para entender la interacción
