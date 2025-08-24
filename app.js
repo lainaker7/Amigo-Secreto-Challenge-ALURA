@@ -2,20 +2,29 @@ let listaDeAmigos =[];
 
 function ingresaUnAmigo(){
     let nombres = document.getElementById('amigo').value;
-    if(nombres===""){
-    alert("Debes escribir un nombre");
-    return;
-}
-    if(listaDeAmigos.includes(nombres)){
-    alert("Este nombre ya fue ingresado, elija otro por favor");
-    return;
+    
+    // Validar campo vacío
+    if(nombres.trim() === ""){
+        alert("Debes escribir un nombre");
+        return;
     }
+    
+    // Validar solo letras y espacios
+    const regex = /^[A-Za-zÁáÉéÍíÓóÚúÜüÑñ\s]+$/;
+    if(!regex.test(nombres)){
+        alert("Solo se permiten letras y espacios. No números ni caracteres especiales");
+        return;
+    }
+    
+    // Validar duplicados
+    if(listaDeAmigos.includes(nombres)){
+        alert("Este nombre ya fue ingresado, elija otro por favor");
+        return;
+    }
+    
     listaDeAmigos.push(nombres);
-   
     verLista();
     limpiarBanner();
-   
-
 }
 
  
