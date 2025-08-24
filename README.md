@@ -2,7 +2,7 @@
 
 ![Quien será el Amigo secreto](![alt text](image.png))
 
-- Etapa del proyecto: en construcción
+- Etapa del proyecto: Proyecto finalizado
 
 - Para crear el juego debemos definir variables y seguir los pasos de logica de programación
 
@@ -12,4 +12,4 @@
 
 - se crean las variables, se definen las funciones de agregar amigo, crear lista y sortear amigo secreto
 
-- se obtienen los resultados en el juego.
+- se obtienen los resultados
